@@ -3,11 +3,11 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>org.mingle.maven</groupId>
-  <artifactId>maven-loc-plugin</artifactId>
+  <artifactId>loc-maven-plugin</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>maven-plugin</packaging>
 
-  <name>maven-loc-plugin Maven Plugin</name>
+  <name>loc-maven-plugin Maven Plugin</name>
 
   <!-- FIXME change it to the project's website -->
   <url>http://maven.apache.org</url>
