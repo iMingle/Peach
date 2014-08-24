@@ -17,11 +17,11 @@
     <plugins>
       <plugin>
         <groupId>org.mingle.maven</groupId>
-        <artifactId>maven-loc-plugin</artifactId>
+        <artifactId>loc-maven-plugin</artifactId>
         <version>0.0.1-SNAPSHOT</version>
         <executions>
           <execution>
-            <id>touch</id>
+            <id>count</id>
             <phase>validate</phase>
             <goals>
               <goal>count</goal>
