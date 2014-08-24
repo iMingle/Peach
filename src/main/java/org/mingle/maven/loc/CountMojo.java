@@ -28,35 +28,35 @@ public class CountMojo extends AbstractMojo {
 			"properties" };
 
 	/**
-	 * @parameter expression="${project.basedir}"
+	 * @parameter expression="project.basedir"
 	 * @required
 	 * @readonly
 	 */
 	private File basedir;
 
 	/**
-	 * @parameter expression="${project.build.sourceDirectory}"
+	 * @parameter expression="project.build.sourceDirectory"
 	 * @required
 	 * @readonly
 	 */
 	private File sourceDirectory;
 
 	/**
-	 * @parameter expression="${project.build.testSourceDirectory}"
+	 * @parameter expression="project.build.testSourceDirectory"
 	 * @required
 	 * @readonly
 	 */
 	private File testSourceDirectory;
 
 	/**
-	 * @parameter expression="${project.build.resources}"
+	 * @parameter expression="project.build.resources"
 	 * @required
 	 * @readonly
 	 */
 	private List<Resource> resources;
 
 	/**
-	 * @parameter expression="${project.build.testResources}"
+	 * @parameter expression="project.build.testResources"
 	 * @required
 	 * @readonly
 	 */
