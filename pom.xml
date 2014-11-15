@@ -137,4 +137,14 @@
       </build>
     </profile>
   </profiles>
+  
+  <distributionManagement>
+  	<repository>
+  		<!-- 此ID需要和settings.xml文件中的<server>标签中的ID对应 -->
+  		<id>snapshots</id>
+  		<layout>default</layout>
+  		<name>localRepository</name>
+  		<url>http://localhost:8081/nexus/content/repositories/snapshots</url>
+  	</repository>
+  </distributionManagement>
 </project>
